@@ -1,19 +1,19 @@
-const Character = require("./class/Character");
+const Personagem = require("./class/Personagem");
 
-const character1 = new Character("Raven", "Ladina", 60);
-const character2 = new Character("Beatryz", "Arqueira", 50);
-const character3 = new Character("Everson", "Tanque", 150);
-
-console.log(`=============================================`)
-character1.attack();
-character1.mostrarInfo();
+const raven = new Personagem("Raven", "Ladina", 60);
+const beatryz = new Personagem("Beatryz", "Arqueira", 50);
+const everson = new Personagem("Everson", "Tanque", 150);
 
 console.log(`=============================================`)
-character2.attack();
-character2.mostrarInfo();
+raven.ataque();
+raven.mostrarInfo();
 
 console.log(`=============================================`)
-character3.attack();
-character3.mostrarInfo();
+beatryz.ataque();
+beatryz.mostrarInfo();
+
+console.log(`=============================================`)
+everson.ataque();
+everson.mostrarInfo();
 
 console.log(`=============================================`)
